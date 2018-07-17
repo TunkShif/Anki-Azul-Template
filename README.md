@@ -3,6 +3,8 @@ Anki Azul Template
 
 一套搭配 `AnkiDroid` 蓝色的主色调的风格统一模板
 
+[下载地址][4]
+
 ### 预览
 
 ![Vocabulary](1)
@@ -28,6 +30,9 @@ Anki Azul Template
 ### Español
 在线的西语单词卡, 只需要添加单词, 在线显示西语助手或 `WordReference` 的释义页面
 
+**注意**:
+部分卡片引用了 [Pure CSS][3] 的按钮样式, 首次使用需要网络, 含有在线查词的卡片都需要在网络环境下使用
+
 ### TODO
 - 成语积累卡片
 - 文言知识卡片
@@ -35,3 +40,5 @@ Anki Azul Template
 
 [1]: https://raw.githubusercontent.com/TunkShif/Anki-Azul-Template/master/img/Screenshot_20180717204754.png
 [2]: https://github.com/TunkShif/Anki-Azul-Template/blob/master/img/
+[3]: https://purecss.io/
+[4]: https://github.com/TunkShif/Anki-Azul-Template/releases
