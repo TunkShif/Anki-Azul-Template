@@ -7,7 +7,7 @@ Anki Azul Template
 
 ![Vocabulary](1)
 
-[更多图片](2)
+[更多图片][2]
 
 ### 介绍
 ##### Vobabulary
@@ -25,10 +25,13 @@ Anki Azul Template
 
 ~~无视例图中展示的歌词~~
 
-### TODO
-- [] 成语积累卡片
-- [] 文言知识卡片
-- [] 诗词文章背诵卡片
+### Español
+在线的西语单词卡, 只需要添加单词, 在线显示西语助手或 `WordReference` 的释义页面
 
-[1]: https://i.loli.net/2018/07/17/5b4dea793fcae.png
+### TODO
+- 成语积累卡片
+- 文言知识卡片
+- 诗词文章背诵卡片
+
+[1]: https://raw.githubusercontent.com/TunkShif/Anki-Azul-Template/master/img/Screenshot_20180717204754.png
 [2]: https://github.com/TunkShif/Anki-Azul-Template/blob/master/img/
