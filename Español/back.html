@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.1/build/buttons-min.css">
+    <link rel="stylesheet" href="card.css">
+</head>
+
+<body>
+
+    <div id="box">
+    
+        <div id="header">
+            <span id="title">{{Deck}}</span>
+        </div>
+    
+        <div id="main">
+            <div id="word">{{WORD}}</div>
+        </div>
+    
+    </div>
+    
+    <div id="frame">
+        <iframe src="http://www.esdict.cn/mdicts/es/{{WORD}}"></iframe>
+    </div>
+
+    <div id="footer">
+        <script>
+            function show_img() {
+                var frame = document.getElementById("frame");
+                var word = document.getElementById("word").innerHTML;
+                var url = "http://www.esdict.cn/mdicts/es/" + word + "&ensearch=1";
+                var html = '<iframe src="' + url + '" id="iframe"></iframe>';
+                frame.innerHTML = html;
+            }
+
+            function show_dict() {
+                var frame = document.getElementById("frame");
+                var word = document.getElementById("word").innerHTML;
+                var url = "http://www.wordreference.com/es/en/translation.asp?spen=" + word
+                var html = '<iframe src="' + url + '" id="iframe"></iframe>';
+                frame.innerHTML = html;
+            }
+        </script>
+        <a href="#" class="pure-button" onclick="show_img()">ESDICT</a>
+        <a href="#" class="pure-button" onclick="show_dict()">WORDREF</a>
+    </div>
+
+</body>
+
+</html>

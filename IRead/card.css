@@ -1,0 +1,42 @@
+.card {
+  font-family: "Noto Sans";
+  font-size: 1.25em;
+  color: #212121;
+  background: #eeeeee;
+}
+
+#box {
+  border-radius: 2px;
+  background: #fff;
+  font-size: 1em;
+  color: #212121;
+}
+
+#header {
+  background: #03a9f4;
+  border-radius: 2px 2px 0 0;
+  box-shadow: 1px 1px 2px #848484;
+}
+
+#title {
+  margin-left: 5px;
+  color: #fafafa;
+  text-transform: uppercase;
+}
+
+#main {
+  margin: 0.25em 0.5em;
+  padding-bottom: 0.25em;
+}
+
+#text{
+  text-indent: 1em;
+  font-size: 1.15em;
+}
+
+#tag {
+  text-align: right;
+  font-size: 1em;
+  font-style: italic;
+  color: #848484;
+}

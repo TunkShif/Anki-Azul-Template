@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet"
+            href="https://unpkg.com/purecss@0.6.1/build/buttons-min.css">
+        <link rel="stylesheet" href="card.css">
+    </head>
+
+    <body>
+
+        <div id="box">
+
+            <div id="header">
+                <span id="title">{{Deck}}</span>
+            </div>
+
+            <div id="main">
+                <div id="question">{{QUESTION}}</div>
+                <div id="tag">{{Tags}}</div>
+                <hr>
+                <div id="answer">{{ANSWER}}</div>
+                {{#EXTRA}}
+                <hr>
+                <div id="extra">{{EXTRA}}</div>
+                {{/EXTRA}}
+
+            </div>
+
+        </div>
+
+    </body>
+
+</html>
