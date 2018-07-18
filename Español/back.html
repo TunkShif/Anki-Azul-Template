@@ -28,10 +28,18 @@
 
     <div id="footer">
         <script>
-            function show_img() {
+            function show_esdict() {
                 var frame = document.getElementById("frame");
                 var word = document.getElementById("word").innerHTML;
                 var url = "http://www.esdict.cn/mdicts/es/" + word + "&ensearch=1";
+                var html = '<iframe src="' + url + '" id="iframe"></iframe>';
+                frame.innerHTML = html;
+            }
+
+            function show_img() {
+                var frame = document.getElementById("frame");
+                var word = document.getElementById("word").innerHTML;
+                var url = "https://cn.bing.com/images/search?q=" + word + "&ensearch=1";
                 var html = '<iframe src="' + url + '" id="iframe"></iframe>';
                 frame.innerHTML = html;
             }
@@ -44,8 +52,9 @@
                 frame.innerHTML = html;
             }
         </script>
-        <a href="#" class="pure-button" onclick="show_img()">ESDICT</a>
+        <a href="#" class="pure-button" onclick="show_esdict()">ESDICT</a>
         <a href="#" class="pure-button" onclick="show_dict()">WORDREF</a>
+        <a href="#" class="pure-button" onclick="show_img()">IAMGE</a>
     </div>
 
 </body>

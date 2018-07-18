@@ -32,6 +32,7 @@ Anki Azul Template
 
 **注意**:
 部分卡片引用了 [Pure CSS][3] 的按钮样式, 首次使用需要网络, 含有在线查词的卡片都需要在网络环境下使用
+部分使用了 iframe 的卡片在 PC 版本 Anki 上可能会出现问题, 在 AnkiDroid 上并无问题.
 
 ### TODO
 - 成语积累卡片
