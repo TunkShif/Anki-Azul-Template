@@ -7,7 +7,7 @@ Anki Azul Template
 
 ### 预览
 
-![Vocabulary](1)
+![Vocabulary][1]
 
 [更多图片][2]
 
@@ -39,7 +39,7 @@ Anki Azul Template
 - 文言知识卡片
 - 诗词文章背诵卡片
 
-[1]: https://raw.githubusercontent.com/TunkShif/Anki-Azul-Template/master/img/Screenshot_20180717204754.png
+[1]: https://raw.githubusercontent.com/TunkShif/Anki-Azul-Template/master/img/screenshot_1531831838.png
 [2]: https://github.com/TunkShif/Anki-Azul-Template/blob/master/img/
 [3]: https://purecss.io/
 [4]: https://github.com/TunkShif/Anki-Azul-Template/releases
