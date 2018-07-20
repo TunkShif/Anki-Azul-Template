@@ -73,9 +73,17 @@
                 var html = '<iframe src="' + url + '" id="iframe"></iframe>';
                 frame.innerHTML = html;
             }
+            function show_youd() {
+                var frame = document.getElementById("frame");
+                var word = document.getElementById("word").innerHTML;
+                var url = "http://www.youdict.com/w/" + word;
+                var html = '<iframe src="' + url + '" id="iframe"></iframe>';
+                frame.innerHTML = html;
+            }
         </script>
-        <a href="#" class="pure-button" onclick="show_img()">IAMGE</a>
+        <a href="#" class="pure-button" onclick="show_img()">IMG</a>
         <a href="#" class="pure-button" onclick="show_dict()">DICT</a>
+        <a href="#" class="pure-button" onclick="show_youd()">YOUD</a>
         <a href="#" class="pure-button" onclick="show_etym()">ETYM</a>
     </div>
 

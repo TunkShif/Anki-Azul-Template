@@ -34,6 +34,11 @@
   font-size: 1.15em;
 }
 
+#question b, #answer b, #extra b{
+  font-weight: bold;
+  color: #208bbd;
+}
+
 #tag {
   text-align: right;
   font-size: 1em;

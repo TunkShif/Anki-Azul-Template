@@ -17,13 +17,20 @@
         </div>
     
         <div id="main">
-            <div id="word">{{WORD}}</div>
+            <div id="word">
+                {{#EXTRA}}
+                <span id="extra">
+                    {{EXTRA}}
+                </span>
+                {{/EXTRA}}
+                {{WORD}}
+            </div>
         </div>
     
     </div>
     
     <div id="frame">
-        <iframe src="http://www.esdict.cn/mdicts/es/{{WORD}}"></iframe>
+        <iframe src="http://www.wordreference.com/es/en/translation.asp?spen={{WORD}}"></iframe>
     </div>
 
     <div id="footer">
