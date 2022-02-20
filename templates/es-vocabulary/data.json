@@ -1,0 +1,8 @@
+{
+  "WORD": "seguir",
+  "POS": "vtr",
+  "DEFINITION": "to move behind, to follow",
+  "SENTENCE-ES": "Sígueme y te enseño el camino a casa.",
+  "SENTENCE-EN": "Follow me and I will show you the way home.",
+  "AUDIO": "https://api.frdic.com/api/v2/speech/speakweb?langid=es&txt=QYNc2VndWly"
+}
