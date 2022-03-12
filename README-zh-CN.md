@@ -2,7 +2,7 @@
 
 ![demo](docs/demo.png)
 
-<p align="center">[English][0] | 简体中文</p>
+[English][0] | 简体中文
 
 简洁风格的 Anki 卡片模板。
 
@@ -26,7 +26,7 @@
 
 在 `tools` 目录下有一个 rust 写的小工具，用来打包生成 `apkg` 文件。（感谢 [genanki-rs][3]）
 
-[0]: README.md
+[0]: https://github.com/TunkShif/Anki-Azul-Template/blob/main/README.md
 [1]: https://anki-azul-template.vercel.app/
 [2]: https://github.com/TunkShif/Anki-Azul-Template/tree/legacy
 [3]: https://github.com/yannickfunk/genanki-rs

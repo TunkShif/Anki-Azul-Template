@@ -2,7 +2,7 @@
 
 ![demo](docs/demo.png)
 
-<p align="center">English | [简体中文][0]</p>
+English | [简体中文][0]
 
 A collection of clean style anki card templates. Check out the [Online Preview][1].
 
@@ -24,7 +24,7 @@ All card templates reside in `templates` folder, we use tailwind css for styling
 
 And under the `tools` folder, there is a rust program for generating `apkg` collections. (Thanks to [genanki-rs][3])
 
-[0]: README-zh-CN.md
+[0]: https://github.com/TunkShif/Anki-Azul-Template/blob/main/README-zh-CN.md
 [1]: https://anki-azul-template.vercel.app/
 [2]: https://github.com/TunkShif/Anki-Azul-Template/tree/legacy
 [3]: https://github.com/yannickfunk/genanki-rs
