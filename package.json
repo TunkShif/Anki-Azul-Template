@@ -6,7 +6,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "gen": "tailwindcss --config=tailwindcss.card.config.js --input=styles/card.css --output=styles/output.css --minify"
+    "gen": "tailwindcss --config=tailwind.card.config.js --input=styles/card.css --output=output/style.css --minify"
   },
   "dependencies": {
     "daisyui": "^2.0.9",
